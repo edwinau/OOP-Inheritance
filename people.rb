@@ -34,3 +34,12 @@ b=Student.create("Edwin")
 
 puts Instructor.teach(a)
 puts Student.learn(b)
+
+=begin
+puts Student.teach(b)
+people.rb:38:in `<main>': undefined method `teach' for Student:Class (NoMethodError)
+rem5f69tz1:OOP-Inheritance edwinau$
+
+
+Cannot call teach class method on student class instance as Student Class does not inherit Instructor Class method/attributes or variables.  
+=end
