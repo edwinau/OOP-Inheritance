@@ -10,6 +10,7 @@ class Person
       @@group << x
       return "Hi, my name is #{x}."
   end
+end
 
 
 class Student < Person
