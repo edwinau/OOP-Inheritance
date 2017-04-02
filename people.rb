@@ -17,17 +17,20 @@ class Person
 end
 
 class Student < Person
-  def learn
+  def self.learn(name)
     return "I get it!"
   end
 end
 
 
 class Instructor < Person
-  def teach
+  def self.teach(name)
     return "Everything in Ruby is an Object."
   end
 end
 
 a=Instructor.create("Greg")
 b=Student.create("Edwin")
+
+puts Instructor.teach(a)
+puts Student.learn(b)
