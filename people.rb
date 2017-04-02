@@ -8,11 +8,11 @@ class Person
   def initialize
       x = Person.new(name)
       @@group << x
-      return x
+      return "Hi, my name is #{x}."
   end
 
 
-class Student
+class Student < Person
 
   def learn
     return "I get it!"
@@ -21,7 +21,8 @@ class Student
 end
 
 
-class Instructor
+class Instructor < Person
   def teach
     return "Everything in Ruby is an Object."
+  end
 end
