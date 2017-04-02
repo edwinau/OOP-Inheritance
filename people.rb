@@ -41,5 +41,5 @@ people.rb:38:in `<main>': undefined method `teach' for Student:Class (NoMethodEr
 rem5f69tz1:OOP-Inheritance edwinau$
 
 
-Cannot call teach class method on student class instance as Student Class does not inherit Instructor Class method/attributes or variables.  
+Cannot call teach class method on student class instance as Student Class does not inherit Instructor Class method/attributes or variables.
 =end
